@@ -7,19 +7,24 @@ import {MenubarModule} from 'primeng/menubar';
 import { TabViewModule } from 'primeng/tabview';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ButtonModule } from 'primeng/button';
+import { RouterModule } from '@angular/router';
+import { routing } from 'src/app/app.routes';
+
 
 @NgModule({
   declarations: [
     NavBarComponent
   ],
   imports: [
-  CommonModule,
+CommonModule,
     MenuModule,
     MenubarModule,
     TabViewModule,
     BrowserAnimationsModule,
     MenubarModule,
     ButtonModule,
+    RouterModule,
+    routing
 
   ],
   exports: [

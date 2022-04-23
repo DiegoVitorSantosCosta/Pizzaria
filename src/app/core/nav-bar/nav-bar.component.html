@@ -1,37 +1,16 @@
-<nav class="grid pt-1 mb-1 ">
+<nav class="grid pt-1 mb-1 fadeinleft animation-duration-300 ">
   <div class="col-3 text-right">
     <img src="../../assets/logo/infowebr.svg" alt="">
   </div>
 
   <div class="col-6 grid align-items-center justify-content-center">
 
-
-    <div routerLink="home" class="content-p">
-      <p routerLinkActive="active-line" class="opa">Home</p>
+    <div (click)="rota(menu.routerLink)" *ngFor="let menu of menus" routerLink="{{menu.routerLink}}" class="content-p">
+      <p routerLinkActive="active-line" class="opa">{{ menu.label }}</p>
       <div class="span"></div>
     </div>
 
-    <div class="content-p">
-      <p>Cardápio</p>
-      <div class="span"></div>
-    </div>
 
-    <div class="content-p">
-      <p>Promoções</p>
-      <div class="span"></div>
-    </div>
-
-    <div class="content-p">
-      <p>Atendimento</p>
-
-      <div class="span"></div>
-    </div>
-
-    <div class="content-p">
-      <p>Quem somos</p>
-
-      <div class="span"></div>
-    </div>
 
   </div>
 

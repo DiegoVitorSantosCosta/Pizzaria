@@ -8,8 +8,8 @@ import { NavBarModule } from './core/nav-bar/nav-bar.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeModule } from './home/home.module';
 import { routing } from './app.routes';
-import { FooterComponent } from './core/footer/footer.component';
 import { FooterModule } from './core/footer/footer.module';
+import { CardapioModule } from './cardapio/cardapio.module';
 
 
 @NgModule({
@@ -24,7 +24,8 @@ import { FooterModule } from './core/footer/footer.module';
     FormsModule,
     HomeModule,
     routing,
-    FooterModule
+    FooterModule,
+    CardapioModule
 
   ],
   providers: [],

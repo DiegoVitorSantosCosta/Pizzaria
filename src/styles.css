@@ -5,3 +5,13 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.title {
+  color: var(--orange-900);
+  font-family: 'Franklin Gothic Medium',
+    'Arial Narrow',
+    sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 400;
+}
