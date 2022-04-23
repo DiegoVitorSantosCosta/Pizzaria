@@ -1,0 +1,31 @@
+.color {
+  background-color: var(--orange-900);
+}
+
+.redes-sociais i {
+  font-size: 30px;
+  letter-spacing: 10px;
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 18px;
+  margin: 0 3%;
+  cursor: pointer;
+  color: var(--orange-100);
+  opacity: 0.7;
+  line-height: 1.6;
+}
+
+h3 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 27px;
+  color: var(--orange-100);
+  margin-bottom: 40px;
+}
+
+.hr {
+
+  background-color: var(--orange-50);
+}
