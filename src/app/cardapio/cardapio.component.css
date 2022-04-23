@@ -1,0 +1,32 @@
+:host ::ng-deep .p-menuitem-text {
+  font-family: 'Libre Franklin',
+    sans-serif;
+  font-size: 18px;
+  margin: 0 3%;
+
+}
+
+::ng-deep .p-card {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 620px;
+  height: 200%;
+  transform: translate(105%, 0);
+}
+
+::ng-deep .p-megamenu {
+  position: relative;
+}
+
+h4 {
+  font-family: 'Libre Franklin',
+    sans-serif;
+  font-size: 22px;
+  margin: 0 3%;
+}
+
+:host() ::ng-deep .p-tabmenu-nav {
+  display: block;
+
+}

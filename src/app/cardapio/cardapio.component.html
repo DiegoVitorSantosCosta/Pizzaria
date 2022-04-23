@@ -1,0 +1,20 @@
+<div class="grid m-0 box justify-content-center">
+  <div class="col-12 fadeinleft animation-duration-300">
+    <h2 class="title mt-4 mb-4">Cardápios</h2>
+    <hr class="col-8 p-0 mb-7">
+  </div>
+
+  <div class="col-4 fadeinleft animation-duration-300 ">
+    <p-tabMenu [activeItem]=" activeItem" [model]="items"></p-tabMenu>
+
+  </div>
+  <div id="hamburguer" class="col-5 grid aling-items-center justify-content-center fadeinright animation-duration-300">
+    <div *ngFor="let produto of produtos" class=" col-6 ">
+      <img style="max-height: 152px;" width="100%" src="{{produto.url }}" alt="">
+      <h4 class="col-12 text-center">{{produto.nome}}</h4>
+      <p class="col-12 text-center"><strong>
+          {{produto.preco}}
+        </strong></p>
+    </div>
+  </div>
+</div>
