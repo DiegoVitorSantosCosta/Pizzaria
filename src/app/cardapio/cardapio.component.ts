@@ -78,14 +78,14 @@ export class CardapioComponent implements OnInit {
       nome: 'X-tudo',
       descricao: 'Hamburguer de carne, queijo, bacon, alface, tomate, cebola e molho de tomate.',
       preco: 'R$ 15,00',
-      url: "../../assets/logo/kzXCTbnv-removebg-preview.png"
+      url: "https://firebasestorage.googleapis.com/v0/b/teste-adde4.appspot.com/o/kzXCTbnv-removebg-preview.png?alt=media&token=505f943f-54dc-414e-9748-5dbf09128162"
 
     },
     {
       nome: 'Hamburguer de carne',
       descricao: 'Hamburguer de carne, queijo, bacon, alface, tomate, cebola e molho de tomate.',
       preco: 'R$ 25,00',
-      url: "../../assets/logo/kzXCTbnv-removebg-preview.png"
+      url: "https://firebasestorage.googleapis.com/v0/b/teste-adde4.appspot.com/o/kzXCTbnv-removebg-preview.png?alt=media&token=505f943f-54dc-414e-9748-5dbf09128162"
     }
   ]
   produtos: any[];
@@ -95,13 +95,13 @@ export class CardapioComponent implements OnInit {
       nome: 'Pizza de calabresa',
       descricao: 'Pizza de calabresa, queijo, bacon, alface, tomate, cebola e molho de tomate.',
       preco: 'R$ 55,00',
-      url: "../../assets/logo/pizza2.png"
+      url: "https://firebasestorage.googleapis.com/v0/b/teste-adde4.appspot.com/o/pizza2.png?alt=media&token=79bdcf4a-eb11-4e06-ac27-ee4a2981959d"
     },
     {
       nome: 'Pizza de calabresa',
       descricao: 'Pizza de calabresa, queijo, bacon, alface, tomate, cebola e molho de tomate.',
       preco: 'R$ 55,00',
-      url: "../../assets/logo/pizza2.png"
+      url: "https://firebasestorage.googleapis.com/v0/b/teste-adde4.appspot.com/o/pizza2.png?alt=media&token=79bdcf4a-eb11-4e06-ac27-ee4a2981959d"
     }
   ];
 
