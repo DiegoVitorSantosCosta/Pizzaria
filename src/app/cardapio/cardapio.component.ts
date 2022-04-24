@@ -95,7 +95,7 @@ export class CardapioComponent implements OnInit {
       nome: 'Pizza de calabresa',
       descricao: 'Pizza de calabresa, queijo, bacon, alface, tomate, cebola e molho de tomate.',
       preco: 'R$ 55,00',
-      url: "../../assets/logo/pizza.png"
+      url: "../../assets/logo/pizza2.png"
     },
     {
       nome: 'Pizza de calabresa',
@@ -103,6 +103,6 @@ export class CardapioComponent implements OnInit {
       preco: 'R$ 55,00',
       url: "../../assets/logo/pizza2.png"
     }
-  ]
+  ];
 
 }
