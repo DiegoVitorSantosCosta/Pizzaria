@@ -3,10 +3,9 @@ import { CardapioComponent } from './cardapio/cardapio.component';
 import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
-    { path: '',redirectTo: 'home', pathMatch: 'full' },
     { path: 'home', component: HomeComponent },
-    { path: '/', component: HomeComponent },
   { path: 'cardapio', component: CardapioComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
 
 
 ]
