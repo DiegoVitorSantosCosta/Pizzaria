@@ -4,6 +4,7 @@ import {MegaMenuModule} from 'primeng/megamenu';
 import { CardapioComponent } from './cardapio.component';
 import { CardModule } from 'primeng/card';
 import {TabMenuModule} from 'primeng/tabmenu';
+import { ButtonModule } from 'primeng/button';
 
 
 
@@ -13,10 +14,11 @@ import {TabMenuModule} from 'primeng/tabmenu';
     CardapioComponent
   ],
   imports: [
-  CommonModule,
+CommonModule,
     MegaMenuModule,
     CardModule,
-    TabMenuModule
+    TabMenuModule,
+    ButtonModule
 
   ],
   exports: [

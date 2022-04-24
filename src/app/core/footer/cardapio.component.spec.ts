@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CardapioComponent } from './cardapio.component';
+import { CardapioComponent } from '../../cardapio/cardapio.component';
 
 describe('CardapioComponent', () => {
   let component: CardapioComponent;

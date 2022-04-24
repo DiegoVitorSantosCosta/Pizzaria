@@ -3,7 +3,7 @@
     [responsiveOptions]="responsiveOptions">
 
     <ng-template let-product pTemplate="item">
-      <div class=" grid">
+      <div class="  scalein animation-duration-500  grid">
         <div class="col-12">
           <div class="mb-3">
             <img src="{{product.imageUrl }}" [alt]="product.name" class="product-image" />
@@ -26,9 +26,15 @@
 
   <div class="grid m-0 box justify-content-center">
 
+    <div class="title mt-6 col-12">
+      <h2>
+        Destaques do dia
+      </h2>
+    </div>
+
     <div class="col-4 ">
       <div>
-        <div class="scalein animation-duration-1000 info-content">
+        <div class=" info-content">
           <img class="col-4 img"
             src="https://images.unsplash.com/photo-1550317138-10000687a72b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=920&q=80"
             alt="">
@@ -54,7 +60,7 @@
 
     <div class="col-4 ">
       <div>
-        <div class="scalein animation-duration-1000 info-content">
+        <div class=" info-content">
           <img class="col-4 img"
             src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             alt="">
@@ -156,7 +162,7 @@
     </div>
   </div>
 
-  <div class="grid justify-content-center m-0">
+  <div class="grid justify-content-center m-0 mb-7">
     <div class="col-4 m-3">
       <p class="text-info">
         Um Pow de Sabor!!! Smash Burguer de 80gr,

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { MenuItem } from 'primeng/api/menuitem';
 
@@ -42,7 +42,27 @@ export class NavBarComponent implements OnInit {
     this.router.navigate(rota)
   }
 
-    ngOnInit() {
+  static  height: EventEmitter<number> = new EventEmitter<number>();
+  ngOnInit() {
+
+    var lastScrollTop = 0;
+    var navbar: any = document.querySelector('nav');
+    var navbarHeight = navbar.offsetHeight + 5;
+    NavBarComponent.height.emit(navbarHeight);
+
+
+var lastScrollTop = 0;
+
+window.addEventListener('scroll', function (e:any) {
+
+    // mesma posição
+    // if (e.scrollY === lastScrollTop) return;
+
+    this.scrollY < lastScrollTop ? navbar.style.opacity =1 :  navbar.style.opacity =0;
+
+    lastScrollTop = this.scrollY;
+
+  }, true)
 
     }
 

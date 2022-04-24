@@ -103,6 +103,9 @@ p-button {
 }
 
 :host ::ng-deep .p-button {
-  background: linear-gradient(to top, #ffbd07, #f0d50a);
+  background: linear-gradient(to top, #ffffff, #f0d50a);
   box-shadow: 0px 3px 3px -3px var(--orange-900);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  background: linear-gradient(to top, #ffbd07, #f0d50a);
 }
